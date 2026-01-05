@@ -6,11 +6,18 @@ public class Project1 {
 		
 		int add = addition();
 		System.out.println(add);
+		int sub = substraction();
+		System.out.println(sub);
 	}
 
 	public static int addition()
 	{
-		i = i/5;
+		i = i+25;
+		return i;
+	}
+	public static int substraction()
+	{
+		i = i-5;
 		return i;
 	}
 
